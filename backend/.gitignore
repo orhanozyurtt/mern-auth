@@ -55,7 +55,6 @@ benchmarks/
 # Ignore additional files using core.excludesFile
 # https://git-scm.com/docs/gitignore
 
-# Exclude all files
-*
-# Except this file
-!.gitignore
+# Exclude node_modules and .env files
+node_modules/
+.env
