@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage {
+  @apply bg-gray-800 w-full h-screen;
+}
